@@ -26,5 +26,3 @@ Scripts for behavior & calcium imaging analysis were written using MATLAB R2018a
 5. Intestinal fluorescence intensities  
    Output:
    - Intestinal fluorescence intensities in GCaMP and RFP images (`waveIntensity.mat`).
-
-# DMP-Imaging-Processing
