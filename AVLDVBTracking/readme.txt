@@ -1,0 +1,10 @@
+流程：
+1、分割神经元，分割虫子，要求中心线头部位于第二条亮带处
+2、MapCenterilineToOriginSize，MapRFPCenterlineToGCaMP将红色中心线map到原始大小的GCaMP上
+3、TrackDVBByCenterline从之前分割出的神经元中，选择尾部方向最近的神经元作为DVB
+4、ComputeAVLAnchor => TrackSingleNeuron_Extraction_V2利用之前提取的神经元进行局部搜索追踪AVL，追不到的用之前分割出神经元的代替
+5、ReplaceNeuronPos手动校准
+
+todo
+1、DVB局部搜索（懒得做，如果有必要的话再看）
+2、AVL还是效果不太好，可以修改神经元分割参数，改善分割效果

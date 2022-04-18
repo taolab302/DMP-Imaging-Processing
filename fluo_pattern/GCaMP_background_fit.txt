@@ -1,0 +1,15 @@
+General model:
+     f(x,y) = d*exp(-1/2*((x-a)^2/w^2 + (y-b)^2/v^2))+c
+Coefficients (with 95% confidence bounds):
+       a =        1145  (1142, 1148)
+       b =       987.5  (984.3, 990.7)
+       c =       118.3  (117.8, 118.8)
+       d =        31.4  (31, 31.8)
+       v =       520.9  (512.1, 529.8)
+       w =       512.1  (502.9, 521.3)
+
+Goodness of fit:
+  SSE: 1400
+  R-square: 0.9785
+  Adjusted R-square: 0.9784
+  RMSE: 1.137
